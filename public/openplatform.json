@@ -1,0 +1,14 @@
+{
+	"name": "Files",
+	"description": "A file manager app",
+	"version": "1.0.0",
+	"icon": "folder",
+	"url": "http://127.0.0.1:8002",
+	"author": "Peter Širka",
+	"email": "petersirka@gmail.com",
+	"roles": [],
+	"width": 800,
+	"height": 600,
+	"resize": true,
+	"origin": []
+}

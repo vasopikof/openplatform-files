@@ -27,7 +27,7 @@
 		<nav data-jc="selected__common.page">
 			<a href="/" data-if="all" class="jR b"><span data-bind="files.stats.all__html:value__show:value"></span><i class="fa fa-folder"></i> @(All files)</a>
 			<a href="/personal/" data-if="personal" class="jR"><span data-bind="files.stats.personal__html:value__show:value"></span><i class="fa fa-user"></i> @(Personal)</a>
-			<a href="/shared/" data-if="shared" class="jR"><span data-bind="files.stats.received__html:value__show:value"></span><i class="fa fa-users"></i> @(Shared)</a>
+			<a href="/shared/" data-if="shared" class="jR"><span data-bind="files.stats.shared__html:value__show:value"></span><i class="fa fa-users"></i> @(Shared)</a>
 		</nav>
 	</div>
 
@@ -138,9 +138,11 @@
 
 				for (var i = 0; i < files.db.length; i++) {
 					var file = files.db[i];
+
 					if (file.userid === user.id)
 						files.stats.personal++;
-					else
+
+					if (file.sharing && file.sharing.length)
 						files.stats.shared++;
 
 					file.owner = file.userid === user.id;

@@ -7,6 +7,8 @@
 - [__Documentation__](https://wiki.totaljs.com/openplatform/01-welcome/)
 - [__Website__](https://www.totaljs.com/openplatform/)
 
+![OpenPlatform Files app](https://cdn.totaljs.com/images/openplatform-files.jpg)
+
 ## Installation
 
 - Download source-code

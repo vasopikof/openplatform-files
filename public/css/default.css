@@ -34,18 +34,6 @@ body { padding:0; margin:0; font:normal 14px Arial; color: #505050; background-c
 .search-button button:hover { opacity: 0.8; }
 .search-button button:disabled { color: gray; background-color: #F0F0F0; opacity: 1 !important; }
 
-.task { cursor: pointer; margin-bottom: 8px; }
-.task > span { float: left; width: 18px; height: 18px; background-color: white; border-radius: 3px; border: 1px solid #D0D0D0; margin: 2px 0 0 0; font-size: 10px; text-align: center; line-height: 18px; }
-.task > span .fa { visibility: hidden; }
-.task > figure { margin-left: 28px; color: black; display: block; height: 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.task-checked > figure { color: #909090; }
-.task-checked > span { color: white; background-color: $color; border-color: $color; }
-.task-checked > span .fa { visibility: visible; }
-.task > figure > span { font-size: 11px; border-radius: 2px; max-width: 100px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 2px 5px; float: left; line-height: 14px; margin: 2px 5px 0 0; }
-.task > figure > div { position: relative; display: inline-block; margin: 1px 0 0; }
-.task-to { background-color: #4285F4; color: white; }
-.task-from { background-color: red; color: white; }
-
 .button { background-color: #4285F4; border: 0; color: white; cursor: pointer; outline: 0; width: 100%; border-radius: 3px; height: 44px; text-transform: uppercase; font-family: Arial; font-size: 14px; }
 .button:hover { box-shadow: 0 2px 5px rgba(0,0,0,0.1); opacity: 0.9; }
 .button:disabled { background-color: #E0E0E0; color: silver; cursor: not-allowed; box-shadow: none; opacity: 1; }
@@ -108,3 +96,5 @@ a.button:hover { text-decoration: none; }
 .operationmenu { position: absolute; left: 0; right: 0; text-align: center; z-index: 5; cursor: pointer; }
 .operationmenu div { width: 100px; background-color: #E0E0E0; margin: 0 auto; padding: 3px 5px; border-radius: 0 0 3px 3px; font-size: 11px; user-select: none; }
 .operationmenu div:hover { background-color: #D0D0D0; }
+
+.radius { border-radius: 3px; }

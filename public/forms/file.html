@@ -32,7 +32,7 @@
 		<div data-jc="textbox__panelfile.path__maxlength:100;placeholder:@(Screenshots)">@(Directory)</div>
 		<div class="help m"><a href="javascript:void(0)" class="exec" data-exec="panelfile/path">@(Choose from existing)</a></div>
 		<div data-jc="textbox__panelfile.reference" style="margin-top:15px">@(Reference)</div>
-		<div class="help">@(Files with same references will be siblings.)</div>
+		<div class="help m">@(Files with same references will be siblings.)</div>
 	</div>
 	<div class="padding bg-smoke">
 		<div data-jc="textbox__%panelsearch__placeholder:@(Search user or group);autocomplete:panelfile/focus;type:search">@(Sharing)</div>
@@ -45,7 +45,8 @@
 		</div>
 	</div>
 	<div class="padding">
-		<div data-jc="textboxtags__panelfile.tags__placeholder:@(Tag name)">@(Tags)</div>
+		<div data-jc="textboxtags__panelfile.tags__placeholder:@(Tag name)" class="m">@(Tags)</div>
+		<div data-jc="textbox__panelfile.note__maxlength:100">@(Note)</div>
 		<div class="help m">@(For example <code>invoices</code>, <code>customer</code>, etc. and press <b>ENTER</b>).</div>
 		<div data-jc="validation__panelfile">
 			<button class="button b exec" data-exec="panelfile/submit" name="submit" disabled>@(Save)</button>

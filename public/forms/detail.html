@@ -28,6 +28,14 @@
 					{{ fi }}
 				</table>
 
+				{{ if value.note }}
+				<div class="bg-smoke m radius">
+					<div class="padding">
+						<b>@(Note)</b><br />{{ value.note }}
+					</div>
+				</div>
+				{{ fi }}
+
 				<a href="{{ value.fileid | download }}" class="button button-small b" target="_blank"><i class="fa fa-cloud-download"></i>@(Download file)</a>
 
 				{{ if value.owner }}

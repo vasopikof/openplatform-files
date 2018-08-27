@@ -189,7 +189,7 @@ input:invalid { box-shadow: none; }
 .ui-filebrowser-wh span { padding: 2px 4px; border-radius: 3px; background-color: white; border: 1px solid #D0D0D0; }
 .ui-filebrowser-sharing { position: absolute; font-size: 10px; left: 0; top: 28px; right: 0; text-align: center; }
 .ui-filebrowser-sharing span { margin: 0 auto; border-radius: 3px; width: 20px; height: 20px; background-color: white; padding: 4px 0 0; text-align: center; border-radius: 3px; display: block; }
-.ui-filebrowser-checkbox { position: absolute; left: 10px; top: 10px; border: 1px solid #E0E0E0; width: 24px; height: 24px; text-align: center; padding: 4px 0 0 0; border-radius: 3px; color: $color; }
+.ui-filebrowser-checkbox { position: absolute; left: 10px; top: 10px; border: 1px solid #E0E0E0; width: 22px; height: 22px; text-align: center; padding: 2px 0 0 0; border-radius: 3px; color: $color; background-color: white; }
 .ui-filebrowser-checkbox .fa { display: none; }
 .ui-filebrowser .selected .ui-filebrowser-checkbox { border-color: $color; }
 .ui-filebrowser .selected .ui-filebrowser-checkbox .fa { display: block; }

@@ -24,10 +24,10 @@
 	<div data-jc="menu"></div>
 
 	<div class="mainmenu scroller">
-		<nav data-jc="selected__common.page">
-			<a href="/" data-if="all" class="jR b"><span data-bind="files.stats.all__html:value__show:value"></span><i class="fa fa-folder"></i> @(All files)</a>
-			<a href="/personal/" data-if="personal" class="jR"><span data-bind="files.stats.personal__html:value__show:value"></span><i class="fa fa-user"></i> @(Personal)</a>
-			<a href="/shared/" data-if="shared" class="jR"><span data-bind="files.stats.shared__html:value__show:value"></span><i class="fa fa-users"></i> @(Shared)</a>
+		<nav data-jc="selected__common.page__selector:li">
+			<li data-jr="/" data-if="all" class="jR b"><span data-bind="files.stats.all__html:value__show:value"></span><i class="fa fa-folder"></i> @(All files)</li>
+			<li data-jr="/personal/" data-if="personal" class="jR"><span data-bind="files.stats.personal__html:value__show:value"></span><i class="fa fa-user"></i> @(Personal)</li>
+			<li data-jr="/shared/" data-if="shared" class="jR"><span data-bind="files.stats.shared__html:value__show:value"></span><i class="fa fa-users"></i> @(Shared)</li>
 		</nav>
 	</div>
 

@@ -197,11 +197,11 @@ input:invalid { box-shadow: none; }
 .ui-filebrowser .selected .ui-filebrowser-checkbox { border-width: 2px; }
 .ui-filebrowser .selected > div > .fa { color: #909090; }
 
-@media(min-width: 1180px) {
+@media(min-width: 1400px) {
 	.ui-filebrowser-click { width: 10%; }
 }
 
-@media(max-width: 1178px) {
+@media(max-width: 1399px) {
 	.ui-filebrowser-click { width: 20%; }
 }
 

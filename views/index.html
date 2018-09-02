@@ -160,6 +160,7 @@
 					return;
 
 				files.db.push(response);
+				OPENPLATFORM.focus();
 				EXEC('Main/prepare');
 				SET('panelfile', CLONE(response), true);
 				SET('common.form', 'file');
@@ -246,7 +247,9 @@
 			var data = {};
 			data.data = body.data;
 			data.filename = 'screenshot_' + body.app.linker + '_' + new Date().format('yyMMddHH') + '.jpg';
-			AJAX('POST /api/upload/base64/', data, EXEC2('Main/upload'));
+			AJAX('POST /api/upload/base64/', data, function(response, err) {
+				EXEC('Main/upload', response, err);
+			});
 		});
 
 		OPENPLATFORM.on('share', function(body) {

@@ -2,6 +2,7 @@
 	"name": "Files",
 	"description": "A file manager app",
 	"version": "1.0.0",
+	"type": "files",
 	"icon": "folder",
 	"url": "http://127.0.0.1:8002",
 	"author": "Peter Širka",
@@ -9,6 +10,13 @@
 	"roles": [],
 	"width": 800,
 	"height": 600,
+	"resize": true,
+	"allowreadmeta": true,
+	"allowreadprofile": 1,
+	"allowreadusers": 3,
+	"allowreadapps": 2,
+	"allowscreenshots": true,
+	"serverside": true,
 	"resize": true,
 	"origin": []
 }
